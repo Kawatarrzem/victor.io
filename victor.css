@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image:url(bg-pattern-top.pnj.svg),url(bg-pattern-bottom.svg);
+    background-repeat:no-repeat,no-repeat;
+    background-position:right 680px  bottom 250px, left 660px top 355px;
+    background-color: hsl(185, 75%, 39%);
+    font-family:'Kumbh Sans' ;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+}
+.container{
+    background-color: white;
+    width: 340px ;
+    height: 365px;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card{
+    text-align: center;
+}
+.img .ban{
+width: 100%;
+}
+
+.img .avatar{
+    border-radius: 50px;
+    position: relative;
+    width: 90px;
+    border: 5px solid white;
+    top:0;
+    left: 44px;
+    transform: translate(-47%, -55%);
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+   
+}
+.informations h1{
+    transform: translate(0,-180%);
+}
+
+.informations h1 span{
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+    padding-left: 4px;
+    
+
+
+}
+
+p{
+ color:hsl(227, 10%, 46%) ;
+}
+.informations p{
+    font-size: 14px;
+    transform: translate(0,-200%);
+}
+
+ .stat{
+    border-top: 1px solid hsl(0, 0%, 59%,0.25);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+ }
+ .stat p{
+    font-size: 9px ;
+    letter-spacing: 1px;
+ }
+ 
